@@ -14,7 +14,7 @@
 
 ### 1.1 Project Vision: Real-Time Financial Monitoring & Anomaly Detection
 
-The **Crypto Market Risk Pipeline** is a comprehensive end-to-end data platform designed to bridge the gap between **High-Performance Data Engineering** and **Advanced Financial Analytics**. 
+The **Crypto Market Risk Pipeline** is a comprehensive end-to-end data platform designed to combine  **data engineering pipelines** with **financial risk analytics.**
 
 In a market characterized by high volatility, this project serves a dual purpose:
 * **Engineering Side:** Architecting a scalable and resilient data infrastructure using the **Medallion Architecture** (Bronze, Silver, Gold) on Databricks to handle automated data flows from the Coinbase API.
@@ -58,11 +58,6 @@ A core objective of this project is to eliminate manual intervention through a f
 
 
 
-
-This intro section bridges the gap between your high-level vision and the granular technical details of each notebook. It sets the stage for the **Medallion Architecture** you've implemented.
-
-
-
 ---
 
 
@@ -96,7 +91,7 @@ Establishes the **Bronze Layer** as an immutable "Source of Truth" by storing ra
 ---
 
 
-### 2.3 Notebook: 02_silver_transformation (Cleaning & Deduplication)
+### 2.3 Notebook: 02_silver_cleaning (Cleaning & Deduplication)
 
 Transforms raw Bronze data into a clean and analytics-ready **Silver Layer**, enforcing data quality, schema consistency, and record uniqueness.
 
@@ -111,7 +106,7 @@ Transforms raw Bronze data into a clean and analytics-ready **Silver Layer**, en
 
 ---
 
-### 2.4 Notebook: 03_gold_risk_metrics (Feature Engineering)
+### 2.4 Notebook: 03_gold_metrics (Feature Engineering)
 
 Transforms raw prices into time-series features for risk assessment.
 
@@ -222,7 +217,6 @@ The pipeline is executed daily via scheduler, and run history is monitored to va
 
 ![Databricks Runs History](docs/images/databricks_workflow_runs.png)
 
-Voici le **chapitre 4 final** avec les chemins d’images explicitement intégrés. Tu peux le coller tel quel dans ton README.
 
 ---
 
@@ -360,7 +354,6 @@ Several extensions could further enhance the platform:
 
 3. **Streaming Data Integration**
    A potential evolution would migrate ingestion from batch processing to structured streaming, enabling near real-time anomaly detection and monitoring.
-
 
 
 
