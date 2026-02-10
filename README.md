@@ -165,7 +165,9 @@ This notebook implements two critical risk measures using **Window Functions** t
 
 * **Historical Value at Risk (VaR 95%)**: Quantifies the potential loss of an asset with a 95% confidence level based on historical log-returns.
 * **Mathematical Approach**: It identifies the 5th percentile of the return distribution.
-$$VaR_{95\%} = \text{Percentile}(\text{Log Returns}, 0.05)$$
+
+VaR95 = Percentile(Log Returns, 5%)
+
 
 
 
