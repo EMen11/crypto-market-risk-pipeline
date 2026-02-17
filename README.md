@@ -10,6 +10,24 @@
 ![Finance](https://img.shields.io/badge/Domain-Finance-blueviolet?style=for-the-badge&logo=generic&logoColor=white)
 ![Crypto](https://img.shields.io/badge/Industry-Crypto-orange?style=for-the-badge&logo=bitcoin&logoColor=white)
 
+## Summary
+Real-time crypto risk monitoring platform built on Databricks.
+Ingests BTC/ETH/SOL data from Coinbase API, processes through
+Medallion Architecture, and delivers executive risk dashboards
+(VaR, Drawdown, Anomaly Detection) via Power BI.
+
+**Key results:** 2,000+ records/day · 8s avg execution · 3 assets monitored · Daily automated runs
+
+---
+
+## Quick Navigation
+- [Summary](#summary)
+- [Architecture](#2-technical-architecture-the-medallion-pipeline)
+- [Orchestration & Reliability](#3-orchestration--reliability)
+- [Dashboards](#4-data-visualization-power-bi)
+- [Results & Conclusions](#5-analyses--conclusions)
+
+---
 ## 1. Introduction & Objectives
 
 ### 1.1 Project Vision: Real-Time Financial Monitoring & Anomaly Detection
